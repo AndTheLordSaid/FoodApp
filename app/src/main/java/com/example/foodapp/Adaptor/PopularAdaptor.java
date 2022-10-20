@@ -16,6 +16,8 @@ import com.example.foodapp.R;
 import java.util.ArrayList;
 
 public class PopularAdaptor extends RecyclerView.Adapter<PopularAdaptor.ViewHolder> {
+    //private final RecyclerViewInterface recyclerViewInterface;
+
     ArrayList<FoodDomain> popularFood;
 
     public PopularAdaptor(ArrayList<FoodDomain> popularFood) {

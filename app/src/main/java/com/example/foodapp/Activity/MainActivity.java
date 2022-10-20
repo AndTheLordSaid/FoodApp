@@ -2,7 +2,6 @@ package com.example.foodapp.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -59,4 +58,5 @@ private RecyclerView recyclerViewCategoryList,recyclerViewPopularList;
         recyclerViewPopularList.setAdapter(adapter2);
 
     }
+
 }
